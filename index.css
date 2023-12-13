@@ -1,0 +1,70 @@
+.whole-wrap {
+  margin: 0 auto;
+  width: 375px;
+  height: 812px;
+}
+
+.whole-wrap .title {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 150px 0 50px 20px;
+}
+
+.input-text-btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.input-text {
+  margin: 0 20px;
+  padding-left: 8px;
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.plus-btn {
+  padding: 0;
+  border: none;
+  height: 55px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  font-size: 45px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+  position: relative;
+}
+
+input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid #999;
+  appearance: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1442/1442912.png");
+  background-size: cover;
+  border: none;
+  margin-right: 20px;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 20px;
+  border: none;
+  width: 50px;
+  padding: 10px;
+}
